@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imperial College London</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="pourbaix.html">
+            <img src="logo.png" alt="Imperial College London Logo" class="logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="https://www.imperial.ac.uk/electrochemical-systems-laboratory/">About Us</a></li>
+                <li><a href="https://www.imperial.ac.uk/electrochemical-systems-laboratory/research/">Research</a></li>
+                <li><a href="https://www.imperial.ac.uk/electrochemical-systems-laboratory/contact-us/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Nickel - H<sub>2</sub>O System</h1>
+
+        <div class="container-4">
+            <iframe width="1420" height="620" frameborder="0" scrolling="no" src="https://imperiallondon-my.sharepoint.com/personal/bkk23_ic_ac_uk/_layouts/15/Doc.aspx?sourcedoc={4688138c-06d7-40e1-8313-c7b5eca47974}&action=embedview&wdAllowInteractivity=False&AllowTyping=True&ActiveCell='E-pH%20Diagram'!AA1&Item='E-pH%20Diagram'!AA1%3AAN29&wdHideGridlines=True&wdInConfigurator=True&wdInConfigurator=True"></iframe>
+        </div>
+
+        <div class="flex-container">
+            <div class="container-1">
+                <h2>Description of method</h2>
+                <h3>- Mass Balance:</h3>
+                <p>[Ni<sup>II</sup>]<sub>Total</sub> = [Ni<sup>2+</sup>] + [Ni(OH)<sub>2</sub>]</p>
+            
+                <h3>- Chemical reactions:</h3>
+                <p>1. Ni(OH)<sub>2</sub> + 2H<sup>+</sup> = Ni<sup>2+</sup> + 2H<sub>2</sub>O</p>
+            
+                <h3>- Electrochemical reactions:</h3>
+                <p>1. Ni<sup>2+</sup> + 2e<sup>-</sup> = Ni</p>
+                <p>2. Ni(OH)<sub>2</sub> + 2H<sup>+</sup> + 2e<sup>-</sup> = Ni + 2H<sub>2</sub>O</p>
+                <p>3. Ni(OH)<sub>3</sub> + H<sup>+</sup> + e<sup>-</sup> = Ni(OH)<sub>2</sub> + 2H<sub>2</sub>O</p>
+                <p>4. Ni(OH)<sub>3</sub> + 3H<sup>+</sup> + e<sup>-</sup> = Ni<sub>2+</sub> + 3H<sub>2</sub>O</p>
+                <p>5. O<sub>2</sub> + 4H<sup>+</sup> + 4e<sup>-</sup> = 2H<sub>2</sub>O</p>
+                <p>6. 2H<sup>+</sup> + 2e<sup>-</sup> = H<sub>2</sub></p>
+            </div>
+            
+            
+            <div class="container-2">
+                <h2>Values</h2>
+            
+                <table class="data1">
+                    <tr>
+                        <th> Parameter </th>
+                        <th> Symbol </th>
+                        <th> Value </th>
+                        <th> Units </th>
+                    </tr>
+                    <tr>
+                        <td> Gas Constant</td>
+                        <td> R </td>
+                        <td> 8.31434 </td>
+                        <td> Jmol<sup>-1</sup>K<sup>-1</sup></td>
+                    </tr>
+                    <tr>
+                        <td> Absolute temperature</td>
+                        <td> T </td>
+                        <td> 298.15 </td>
+                        <td> K </td>
+                    </tr>
+                    <tr>
+                        <td> Faraday Constant</td>
+                        <td> F </td>
+                        <td> 96484.6 </td>
+                        <td> As mol<sup>-1</sup></td>
+                    </tr>
+                    <tr>
+                        <td> Molar mass of Ni</td>
+                        <td> M(Ni) </td>
+                        <td> 58.6934 </td>
+                        <td> g mol<sup>-1</sup></td>
+                    </tr>
+                    <caption>Known information</caption>
+                </table>
+            
+                <p><br></p>
+            
+                <table class="data2">
+                    <tr>
+                        <th> Species </th>
+                        <th>  ΔG<sub>f</sub><sup>0</sup>(298k)/J mol<sup>-1</sup></th>
+                    </tr>
+                    <tr>
+                        <td> Ni(OH)<sub>3</sub>(c) </td>
+                        <td> -541800 </td>
+                    </tr>
+                    <tr>
+                        <td> Ni <sup>2+</sup></td>
+                        <td> -46400 </td>
+                    </tr>
+                    <tr>
+                        <td> Ni(OH)<sub>2</sub>(c)</td>
+                        <td> -453100 </td>
+                    </tr>
+                    <tr>
+                        <td> H<sub>2</sub>O </td>
+                        <td> -237178 </td>
+                    </tr>
+                    <caption>Data from: Standard Potentials in Aqueous Solution, A.J.Bard, R.Parsons and J.Jordan, Eds., Marcel Dekker, New York, 1985.</caption>
+                </table>
+            </div>
+              
+        </div>
+    </main>
+
+    <footer></footer>
+</body>
+</html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imperial College London</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <a href="pourbaix.html">
+            <img src="logo.png" alt="Imperial College London Logo" class="logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="https://www.imperial.ac.uk/electrochemical-systems-laboratory/">About Us</a></li>
+                <li><a href="https://www.imperial.ac.uk/electrochemical-systems-laboratory/research/">Research</a></li>
+                <li><a href="https://www.imperial.ac.uk/electrochemical-systems-laboratory/contact-us/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Speciation and Pourbaix Diagrams for Electrochemical Systems</h1>
+        
+        <div class="flex-container">
+            <div class="container-1">
+                <h2>Introduction</h2>
+                <p>This website provides speciation diagrams and pourbiax diagrams for different systems. The aim of these diagrams is to map the conditions of potential and pH (most typically in aqueous solutions) where different redox species are stable. And they can also be used for different purposes, e.g. predicting the spontaneous direction of electrochemical reactions and the equilibrium state of the metal at a certain electrode potential in a water solution at a certain value of PH, and determining the corrosion behavior of a metal in water solutions.</p>
+            </div>
+            <div class="container-2">
+                <h2>Database Links</h2>
+                <p><a href="nickel-water.html">1. Nickel - H<sub>2</sub>O</a></p>
+                <!-- <p><a href="nickel-ammonia-water.html">2. Nickel-Ammonia-H<sub>2</sub>O</a></p> -->
+                <p><a href="nickel-citrate-water.html">2. Nickel - Citrate - H<sub>2</sub>O</a> </p>
+                <!-- <p><a href="#">4. Nickel-Citrate-Ammonia-H<sub>2</sub>O</a> </p> -->
+                <p><a href="copper-water.html">3. Copper - H<sub>2</sub>O</a> </p>
+                <p><a href="copper-cl-water.html">4. Copper - Cl<sub>2</sub> - H<sub>2</sub>O</a></p>
+            </div>
+        </div>
+        
+        <div class="container-3">
+            <h2>Background</h2>
+            <h3>&#8226 The Speciation diagram</h3>
+            <p>Speciation diagrams are useful in determining the effects of conditions on the distribution of species, they are based on the thermodynamic data and plotted according to the mass balance of species. Many species, such as citrate and ammonia, form complexes with hydrogen ions. Thus, the final equilibrium speciation is often pH dependent. Similarly, other complexes and related speciation are influenced by other ions. Speciation diagram provides information about pH values of important ion dissociation events.</p>
+            <p><br></p>
+
+            <h3>&#8226 The Nernst equation</h3>
+            <p>Before introducing the Nernst equation, it is important to first introduce the relationship between the Gibbs free energy and the electrode potential:</p>
+            <span>&#916;G<sub>r</sub> = -V<sub>e</sub>FE</span>
+            <p> where V<sub>e</sub> is the number of electrons transferred in a reaction, E is the electrode potential and F is  Faraday's constant. If E  is positive, the Gibbs free energy is negative, meaning that it will occur spontaneously (which relates to the above statement where the more positive potentials will readily undergo reduction).</p>
+            <p>As for the Nernst equation, if we take a reaction:</p>
+            <span>aA+bB &#8646; cC+dD</span>
+            <p>The reaction quotient is given by:</p>
+            <span class="fraction">
+                <span>Q =&nbsp</span><div class="frac">
+                    <span>[A]<sup>a</sup>[B]<sup>b</sup></span>
+                    <span class="bottom">[C]<sup>c</sup>[D]<sup>d</sup></span>
+                </div>
+            </span>
+            <p>This can be outside equilibrium and the various a represent the activity of a particular species. This activity can be represented by:</p>
+            <p>- Solutions: will either be equivalent to the actual activity or concentration.</p>
+            <p>- Gases: will be given by their partial pressure.</p>
+            <p>- Solvent: as they are the dominating species, they will be given a value of 1 (usually for water).</p>
+            <p>- Solids: As they essentially exist as a bulk, they are usually assumed to have a value of 1.</p>
+            <p>- Electrons: Assigned a value of 1.</p>
+            <p>The Nernst equation is given by:</p>
+            <span class="fraction">
+                <span>E = E<sup>&#8861;</sup>-&nbsp</span> <!-- Non-fraction part centered -->
+                <div class="frac">
+                    <span>RT</span>
+                    <span class="bottom">V<sub>e</sub>F</span>
+                </div>
+                <span>&nbsplnQ</span> <!-- Non-fraction part centered -->
+            </span>
+            <p>Where E, E<sup>&#8861</sup> and Q should always be expressed in the direction of the reduction. At equilibrium, the reaction quotient becomes the equilibrium constant. This can also be simplified at R and F are simply constants (it is also more useful to express the reaction quotient and equilibrium constants in terms of the logarithm to base 10): </p>
+            
+            <span class="fraction">
+                <span>E = E<sup>&#8861;</sup> -&nbsp;</span> <!-- Non-fraction part centered -->
+                <div class="frac">
+                    <span class="numerator">0.05916</span> <!-- Only numbers in numerator -->
+                    <span class="bottom">V<sub>e</sub></span>
+                </div>
+                <span class="log">&nbsp;log Q;</span>
+                <span class="temperature">&nbsp;T = 298K</span>
+            </span>
+            <p><br></p>
+
+            <h3>&#8226 The Pourbaix diagram</h3>
+            <p> Pourbaix diagrams are plotted by using the Nernst equations As the Nernst equation is derived entirely from thermodynamics, the Pourbaix diagram can be used to determine which species (metals or alloys) is thermodynamically stable at a given electrode potential (E) and pH.</p>
+            <p>Characteristics of Pourbaix diagram:</p>
+            <p>- Horizontal lines represent electron transfer reactions. They are pH-independent, but potential-dependent.</p>
+            <p>- Vertical lines are potential-independent but pH-dependent and not accompanied by any electron transfer.</p>
+            <p>- Sloping, straight lines give the redox potentials of a solution in equilibrium. This equilibrium indicates electron transfer as well as pH.</p>
+            <p>- The diagram is computed for the equilibrium conditions at 25°C.</p>
+        </div>
+    </main>
+
+    <footer></footer>
+</body>
+</html>
