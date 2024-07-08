@@ -1,0 +1,51 @@
+/* Table styles for professional look */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: white; /* Ensuring table background is white */
+    color: black; /* Text color set to black */
+}
+
+caption {
+    font-size: 18px;
+    margin-top: 10px; /* Adjust margin for spacing above caption */
+    text-align: center;
+    caption-side: bottom; /* Place caption below the table */
+    color: white;
+}
+
+th, td {
+    padding: 12px 15px;
+    border: 1px solid black;
+    color: black; /* Text color set to black */
+}
+
+th {
+    background-color: #163c71;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+/* Additional styles for specific tables if needed */
+.data1, .data2 {
+    border-radius: 10px;
+    overflow: hidden; /* Ensures border radius applies to whole table */
+}
+
+.data1 th, .data2 th {
+    background-color: #dd792d; /* Updated header color */
+}
+
+.data1 td, .data2 td {
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imperial College London</title>
+    <link rel="icon" type="image/jpeg" href="Images/Imperial_Logo.jpg">
+
+    <link rel="stylesheet" href="../Style Sheets/styles.css">
+    <link rel="stylesheet" href="../Style Sheets/containers.css">
+    <link rel="stylesheet" href="../Style Sheets/header.css">
+    <link rel="stylesheet" href="../Style Sheets/data.css">
+    <link rel="stylesheet" href="../Style Sheets/equations.css">
+</head>
+
+<body>
+    <header>
+        <a href="../index.html">
+            <img src="../Images/logo.png" alt="Imperial College London Logo" class="logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="https://www.imperial.ac.uk/electrochemical-systems-laboratory/">About Us</a></li>
+                <li><a href="https://www.imperial.ac.uk/electrochemical-systems-laboratory/research/">Research</a></li>
+                <li><a href="https://www.imperial.ac.uk/electrochemical-systems-laboratory/contact-us/">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Zinc - H<sub>2</sub>O System</h1>
+
+        <div class="container-chart">
+            <iframe width="1470" height="670" frameborder="0" scrolling="no" src="https://imperiallondon-my.sharepoint.com/personal/bkk23_ic_ac_uk/_layouts/15/Doc.aspx?sourcedoc={cdd9f03e-38fd-4d3c-a551-4da094748c62}&action=embedview&wdAllowInteractivity=False&AllowTyping=True&ActiveCell='Calculations%20(2)'!AA1&Item='Calculations%20(2)'!AA1%3AAM20&wdHideGridlines=True&wdInConfigurator=True&wdInConfigurator=True"></iframe>
+        </div>
+
+        <div class="flex-container">
+            <div class="container-left">
+                <h2>Description of method</h2>
+                <h3>- Mass Balance: </h3>
+                <p> [Zn<sup>II</sup>]<sub>Total</sub> = [Zn<sup>2+</sup>] + [ZnOH<sup>+</sup>] + [Zn(OH)<sub>2</sub>] + [Zn(OH)<sub>4</sub><sup>2-</sup>] </p>
+                <h3>- Chemical Reactions:</h3>
+                <p> 1. ZnO + 2H<sup>+</sup> = Zn<sup>2+</sup> + H<sub>2</sub>O</p>
+                <p> 2. Zn(OH)<sub>2</sub> + 2H<sup>+</sup> = Zn<sup>2+</sup> + 2H<sub>2</sub>O</p>
+                <p> 3. ZnO + H<sup>+</sup> = ZnOH<sup>+</sup></p>
+                <p> 4. Zn(OH)<sub>2</sub> + H<sup>+</sup> = ZnOH<sup>+</sup> + H<sub>2</sub>O</p>
+                <p> 5. ZnO + H<sub>2</sub>O = Zn(OH)<sub>2</sub> (undiss.)</p>
+                <p> 6. Zn(OH)<sub>2</sub> = Zn(OH)<sub>2</sub> (undiss.)</p>
+                <p> 7. Zn(OH)<sub>2</sub> + 2H<sub>2</sub>O = Zn(OH)<sub>4</sub><sup>2-</sup> + 2H<sup>+</sup></p>
+                <p> 8. ZnO + 3H<sub>2</sub>O = Zn(OH)<sub>4</sub><sup>2-</sup> + 2H<sup>+</sup></p>
+                <p> 9. Zn<sup>2+</sup> + H<sub>2</sub>O = ZnOH<sup>+</sup> + H<sup>+</sup></p>
+                <p> 10. ZnOH<sup>+</sup> + H<sub>2</sub>O = Zn(OH)<sub>2</sub> (undiss.) + H<sup>+</sup></p>
+                <p> 11. Zn(OH)<sub>2</sub> (undiss.) + 2H<sub>2</sub>O = Zn(OH)<sub>4</sub><sup>2-</sup> + 2H<sup>+</sup></p>
+                <h3>- Electrochemical Reactions:</h3>
+                <p> 1. Zn<sup>2+</sup> + 2e<sup>-</sup> = Zn</p>
+                <p> 2. ZnO + 2H<sup>+</sup> + 2e<sup>-</sup> = Zn + H<sub>2</sub>O</p>
+                <p> 3. Zn(OH)<sub>2</sub> + 2H<sup>+</sup> + 2e<sup>-</sup> = Zn + 2H<sub>2</sub>O</p>
+                <p> 4. Zn(OH)<sub>4</sub><sup>2-</sup> + 4H<sup>+</sup> + 2e<sup>-</sup> = Zn + 4H<sub>2</sub>O</p>
+                <p> 5. O<sub>2</sub> + 4H<sup>+</sup> + 4e<sup>-</sup> = 2H<sub>2</sub>O</p>
+                <p> 6. 2H<sup>+</sup> + 2e<sup>-</sup> = H<sub>2</sub></p>
+            </div>            
+            
+            
+            <div class="container-right">
+                <h2>Values</h2>
+            
+                <table class="data1">
+                    <tr>
+                        <th> Parameter </th>
+                        <th> Symbol </th>
+                        <th> Value </th>
+                        <th> Units </th>
+                    </tr>
+                    <tr>
+                        <td> Gas Constant</td>
+                        <td> R </td>
+                        <td> 8.31434 </td>
+                        <td> J mol<sup>-1</sup> K<sup>-1</sup></td>
+                    </tr>
+                    <tr>
+                        <td> Absolute temperature</td>
+                        <td> T </td>
+                        <td> 298.15 </td>
+                        <td> K </td>
+                    </tr>
+                    <tr>
+                        <td> Faraday Constant</td>
+                        <td> F </td>
+                        <td> 96484.6 </td>
+                        <td> As mol<sup>-1</sup></td>
+                    </tr>
+                    <caption>Known information</caption>
+                </table>
+            
+                <p><br></p>
+            
+                <table class="data2">
+                    <tr>
+                        <th> Species </th>
+                        <th>  ΔG<sub>f</sub><sup>0</sup>(298k)/J mol<sup>-1</sup></th>
+                    </tr>
+                    <tr>
+                        <td> Zn </td>
+                        <td> 0 </td>
+                    </tr>
+                    <tr>
+                        <td> Zn<sup>2+</sup> </td>
+                        <td> -147160 </td>
+                    </tr>
+                    <tr>
+                        <td> ZnOH<sup>+</sup> </td>
+                        <td> -342000 </td>
+                    </tr>
+                    <tr>
+                        <td> Zn(OH)<sub>2</sub> (aq) </td>
+                        <td> -461620 </td>
+                    </tr>
+                    <tr>
+                        <td> Zn(OH)<sub>2</sub> (undiss.) </td>
+                        <td> -521000 </td>
+                    </tr>
+                    <tr>
+                        <td> Zn(OH)<sub>2</sub> (β) </td>
+                        <td> -553590 </td>
+                    </tr>
+                    <tr>
+                        <td> Zn(OH)<sub>2</sub> (ε) </td>
+                        <td> -555130 </td>
+                    </tr>
+                    <tr>
+                        <td> ZnO (c) </td>
+                        <td> -318320 </td>
+                    </tr>
+                    <tr>
+                        <td> Zn(OH)<sub>4</sub><sup>2-</sup> </td>
+                        <td> -877400 </td>
+                    </tr>
+                    <tr>
+                        <td> OH<sup>-</sup> </td>
+                        <td> -157293 </td>
+                    </tr>
+                    <tr>
+                        <td> H<sub>2</sub>O </td>
+                        <td> -237178 </td>
+                    </tr>
+                    <tr>
+                        <td> H<sub>2</sub> </td>
+                        <td> 0 </td>
+                    </tr>
+                    <tr>
+                        <td> H<sup>+</sup> </td>
+                        <td> 0 </td>
+                    </tr>
+                    <tr>
+                        <td> O<sub>2</sub> </td>
+                        <td> 0 </td>
+                    </tr>
+                    <tr>
+                        <td> O<sub>2</sub> (aq) </td>
+                        <td> 16300 </td>
+                    </tr>
+                    <caption>Data from: Standard Potentials in Aqueous Solution, A.J.Bard, R.Parsons and J.Jordan, Eds., Marcel Dekker, New York, 1985.</caption>
+                </table>
+                
+            </div>
+              
+        </div>
+    </main>
+</body>
+</html>

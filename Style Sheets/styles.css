@@ -1,0 +1,49 @@
+body {
+	font-family: Arial, sans-serif;
+	color: #ffffff;
+    background-color: #dd792d;
+
+    font-size: 28px;
+    text-align: justify;
+
+    margin: 50px 100px;
+}
+
+/* Links */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+
+    background-color: #163c71;
+
+    border-radius: 30px;
+    padding: 15px 50px;
+    margin: 10px 0px;
+}
+
+h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #dd792d;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+    color: #dd792d;
+}
+
+
+
+
+
+
+
+
+
