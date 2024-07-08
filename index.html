@@ -5,13 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imperial College London</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" type="image/jpeg" href="Images/Imperial_Logo.jpg">
+
+    <link rel="stylesheet" href="Style Sheets/styles.css">
+    <link rel="stylesheet" href="Style Sheets/containers.css">
+    <link rel="stylesheet" href="Style Sheets/header.css">
+    <link rel="stylesheet" href="Style Sheets/data.css">
+    <link rel="stylesheet" href="Style Sheets/equations.css">
 </head>
 
 <body>
     <header>
         <a href="index.html">
-            <img src="logo.png" alt="Imperial College London Logo" class="logo">
+            <img src="Images/logo.png" alt="Imperial College London Logo" class="logo">
         </a>
         <nav>
             <ul>
@@ -25,39 +31,39 @@
     <main>
         <h1>Speciation and Pourbaix Diagrams for Electrochemical Systems</h1>
         
-        <div class="container-3">
+        <div class="container-single">
             <h2>Introduction</h2>
             <p>This website provides speciation diagrams and pourbiax diagrams for different systems. The aim of these diagrams is to map the conditions of potential and pH (most typically in aqueous solutions) where different redox species are stable. And they can also be used for different purposes, e.g. predicting the spontaneous direction of electrochemical reactions and the equilibrium state of the metal at a certain electrode potential in a water solution at a certain value of pH, and determining the corrosion behavior of a metal in water solutions.</p>
         </div>
 
         <div class="flex-container">
 
-            <div class="container-1">
+            <div class="container-left">
                 <h2>Nickel:</h2>
                 <p><a href="Nickel/nickel-water.html">&#8226 Nickel - H<sub>2</sub>O</a></p>
                 <p><a href="Nickel/nickel-citrate-water.html">&#8226 Nickel - Citrate - H<sub>2</sub>O</a> </p>
-                <p><a href="Nickel/nickel-ammonia-water.html">&#8226 Nickel - Ammonia - H<sub>2</sub>O</a> </p>
+                <!--<p><a href="Nickel/nickel-ammonia-water.html">&#8226 Nickel - Ammonia - H<sub>2</sub>O</a> </p>-->
             </div>
 
-            <div class="container-4">
+            <div class="container-middle">
                 <h2>Copper:</h2>
-                <p><a href="copper-water.html">&#8226 Copper - H<sub>2</sub>O</a> </p>
-                <p><a href="copper-chlorine-water.html">&#8226 Copper - Cl<sub>2</sub> - H<sub>2</sub>O</a></p>
+                <p><a href="Copper/copper-water.html">&#8226 Copper - H<sub>2</sub>O</a> </p>
+                <p><a href="Copper/copper-chlorine-water.html">&#8226 Copper - Cl<sub>2</sub> - H<sub>2</sub>O</a></p>
             </div>
 
-            <div class="container-4">
+            <div class="container-middle">
                 <h2>Zinc:</h2>
-                <p><a href="zinc-water.html">&#8226 Zinc - H<sub>2</sub>O</a> </p>
+                <p><a href="Zinc/zinc-water.html">&#8226 Zinc - H<sub>2</sub>O</a> </p>
             </div>
 
-            <div class="container-2">
+            <div class="container-right">
                 <h2>Silver:</h2>
-                <p><a href="silver-water.html">&#8226 Silver - H<sub>2</sub>O</a> </p>
+                <p><a href="Silver/silver-water.html">&#8226 Silver - H<sub>2</sub>O</a> </p>
             </div>
 
         </div>
         
-        <div class="container-3">
+        <div class="container-single">
             <h2>Background</h2>
             <h3>The Speciation diagram</h3>
             <p>Speciation diagrams are useful in determining the effects of conditions on the distribution of species, they are based on the thermodynamic data and plotted according to the mass balance of species. Many species, such as citrate and ammonia, form complexes with hydrogen ions. Thus, the final equilibrium speciation is often pH dependent. Similarly, other complexes and related speciation are influenced by other ions. Speciation diagram provides information about pH values of important ion dissociation events.</p>
@@ -113,7 +119,5 @@
             <p>- The diagram is computed for the equilibrium conditions at 25°C.</p>
         </div>
     </main>
-
-    <footer></footer>
 </body>
 </html>

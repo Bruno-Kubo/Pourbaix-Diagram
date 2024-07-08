@@ -1,0 +1,37 @@
+.container-single,
+.container-left,
+.container-middle,
+.container-right,
+.container-chart {
+    background-color: #163c71;
+
+    border-radius: 30px;
+    padding: 10px 50px;
+    margin: 20px 0px;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+}
+
+.container-left,
+.container-middle,
+.container-right {
+    flex: 1 1 auto;
+    margin: 0 10px;
+}
+
+.container-left {
+    margin-left: 0px;
+}
+
+.container-right {
+    margin-right: 0px;
+}
+
+.container-chart {
+    padding: 30px 50px;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+}
